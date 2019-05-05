@@ -31,7 +31,6 @@ public class MainTest  implements ActionListener {
 		d.setVisible(true);
 	}
 
-	@Override
 	public void actionPerformed(ActionEvent e) {
 		table.mergeCells(table.getSelectedRows(), table.getSelectedColumns());
 	}

@@ -8,8 +8,8 @@ import java.util.Vector;
 public class ShowRecord extends JDialog implements ActionListener  //负责显示记录的类
 {
     JTable table ;
-    Vector vecData = new Vector<>();
-    Vector vecTitle = new Vector<>();
+    Vector vecData = new Vector();
+    Vector vecTitle = new Vector();
 //    Object a[][] ;
 //    Object name[]={"学号","姓名","出生日期","身高"} ;
     JButton showRecord ;
@@ -24,7 +24,7 @@ public class ShowRecord extends JDialog implements ActionListener  //负责显�
       add(showRecord,BorderLayout.NORTH) ;
       setBounds(200,60,400,250) ;
     }
-	
+
     public void createIfNotExists() {
     	String sqlCreate = "CREATE TABLE IF NOT EXISTS message (name,number,birthday,height);";
         PreparedStatement ps = null;
@@ -61,7 +61,7 @@ public class ShowRecord extends JDialog implements ActionListener  //负责显�
 //            a[k][1]=rs.getString(2) ;
 //            a[k][2]=rs.getDate(3) ;
 //            a[k][3]=rs.getString(4) ;
-            Vector vecRow = new Vector<>();
+            Vector vecRow = new Vector();
             vecRow.add(rs.getString(1));
             vecRow.add(rs.getString(2));
             vecRow.add(rs.getString(3));

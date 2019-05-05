@@ -39,7 +39,7 @@ public class TableModelMovie extends DefaultTableModel {
 	 make some movies.
 	 */
 	private void mockData() {
-		List<Movie> list = new ArrayList<>();
+		List<Movie> list = new ArrayList();
 		list.add(new Movie("The Shawshank Redemption", new Date(),
 				"Frank Darabont"));
 		list.add(new Movie("The Godfather", new Date(), " Francis Ford Coppola"));
