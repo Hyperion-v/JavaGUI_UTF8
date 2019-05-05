@@ -1,5 +1,5 @@
 package com;
-import com.myblog.components.table.mergecells.gridbagtable.GridBagTable;
+import com.dut.swing.components.table.mergecells.gridbagtable.GridBagTable;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
