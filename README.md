@@ -1,5 +1,9 @@
 # JavaGUI_UTF8
-Java GUI Components Demos
+
+JavaGUI的项目示例
+
+其中含有以下Demo
+
 
 GUI Components
 JFrame
