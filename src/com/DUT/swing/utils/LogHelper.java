@@ -9,9 +9,9 @@
  * LogHelper.java at 2015-2-1 20:25:40, original version by Jack Jiang.
  * You can contact author with jb2011@163.com.
  */
-package com.dut.swing.utils;
+package com.DUT.swing.utils;
 
-import com.dut.swing.BeautyEyeLNFHelper;
+import com.DUT.swing.BeautyEyeLNFHelper;
 
 
 /**

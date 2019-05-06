@@ -1,4 +1,4 @@
-package com.dut.swing.components.table.mergecells.gridbagtable;
+package com.DUT.swing.components.table.mergecells.gridbagtable;
 
 import java.awt.Color;
 import java.awt.Component;

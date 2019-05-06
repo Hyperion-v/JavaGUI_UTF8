@@ -1,17 +1,17 @@
-package com.dut.swing.components.table.mergecells.gridbagtable;
+package com.DUT.swing.components.table.mergecells.gridbagtable;
 
-import java.awt.Component;   
-import java.awt.Point;   
-import java.awt.Rectangle;   
-import java.util.Enumeration;   
-import java.util.EventObject;   
-  
-import javax.swing.DefaultCellEditor;   
-import javax.swing.JTable;   
-import javax.swing.SwingUtilities;   
-import javax.swing.event.TableModelEvent;   
-import javax.swing.table.AbstractTableModel;   
-import javax.swing.table.TableColumn;   
+import java.awt.Component;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.util.Enumeration;
+import java.util.EventObject;
+
+import javax.swing.DefaultCellEditor;
+import javax.swing.JTable;
+import javax.swing.SwingUtilities;
+import javax.swing.event.TableModelEvent;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;   
   
 /**  

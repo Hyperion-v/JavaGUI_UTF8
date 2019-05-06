@@ -1,13 +1,13 @@
-package com.dut.swing.components.table.mergecells.gridbagtable;
+package com.DUT.swing.components.table.mergecells.gridbagtable;
 
-import java.awt.Point;   
-import java.util.Arrays;   
-import java.util.List;   
-import java.util.Vector;   
-  
-import javax.swing.event.TableModelEvent;   
-import javax.swing.event.TableModelListener;   
-import javax.swing.table.AbstractTableModel;   
+import java.awt.Point;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Vector;
+
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
   
 public class DefaultGridBagTableModel implements GridBagModel, TableModelListener{   
@@ -23,7 +23,7 @@ public class DefaultGridBagTableModel implements GridBagModel, TableModelListene
         if( model != null && model != this.model ){   
             if( this.model != null )   
                 this.model.removeTableModelListener(this);   
-            //防止多次添加监听器   
+            //闃叉澶氭娣诲姞鐩戝惉鍣�   
             model.removeTableModelListener(this);   
             model.addTableModelListener(this);   
             this.model = model;   
@@ -40,7 +40,7 @@ public class DefaultGridBagTableModel implements GridBagModel, TableModelListene
         if( model == null )   
             return;   
            
-        //初始化，每个格子占的格子数为(1,1);   
+        //鍒濆鍖栵紝姣忎釜鏍煎瓙鍗犵殑鏍煎瓙鏁颁负(1,1);   
         for(int row=model.getRowCount(); --row>=0;){   
             List<Point> infos = new Vector<Point>();   
             for(int col=model.getColumnCount(); --col>=0;){   
@@ -160,7 +160,7 @@ public class DefaultGridBagTableModel implements GridBagModel, TableModelListene
        
     @Override  
     /**  
-     * table中发生行的添加和删除的时候需要修改该模型  
+     * table涓彂鐢熻鐨勬坊鍔犲拰鍒犻櫎鐨勬椂鍊欓渶瑕佷慨鏀硅妯″瀷  
      */  
     public void tableChanged(TableModelEvent e) {   
     	 int row = e.getFirstRow();   

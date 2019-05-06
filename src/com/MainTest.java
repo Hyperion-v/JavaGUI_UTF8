@@ -1,5 +1,4 @@
 package com;
-import com.dut.swing.components.table.mergecells.gridbagtable.GridBagTable;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -10,6 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.table.DefaultTableModel;
 
+import com.DUT.swing.components.table.mergecells.gridbagtable.GridBagTable;
 
 public class MainTest  implements ActionListener {
 
